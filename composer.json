@@ -1,0 +1,23 @@
+{
+    "name": "matthiasbayer/JsonApiBundle",
+    "description": "Symfony2 integration for the json-api specification",
+    "keywords": ["json-api", "jsonapi", "jsonapi.org", "json", "api", "rest"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Bayer",
+            "email": "thematthiasbayer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.9",
+        "matthiasbayer/json-api": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bayer\\JsonApiBundle\\": ""
+        }
+    }
+}

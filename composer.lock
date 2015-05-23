@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1c84bc9afccd86f7bbc14d51f88020b2",
+    "packages": [
+        {
+            "name": "matthiasbayer/json-api",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasbayer/json-api.git",
+                "reference": "9cce29f1ab6fe6219c0db353625ee6d702938877"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasbayer/json-api/zipball/9cce29f1ab6fe6219c0db353625ee6d702938877",
+                "reference": "9cce29f1ab6fe6219c0db353625ee6d702938877",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayer\\JsonApi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Bayer",
+                    "email": "thematthiasbayer@gmail.com"
+                }
+            ],
+            "description": "Framework agnostic php implementation of the latest jsonapi.org version",
+            "keywords": [
+                "JSON-API",
+                "api",
+                "json",
+                "jsonapi",
+                "jsonapi.org"
+            ],
+            "time": "2015-05-23 22:55:04"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.9"
+    },
+    "platform-dev": []
+}
