@@ -1,5 +1,5 @@
 {
-    "name": "matthiasbayer/BayerJsonApiBundle",
+    "name": "matthiasbayer/json-api-bundle",
     "description": "FOSRestBundle integration for the json-api specification",
     "keywords": ["json-api", "jsonapi", "jsonapi.org", "json", "api", "rest", "fos", "fosrest", "bundle"],
     "type": "library",
