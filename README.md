@@ -1,4 +1,4 @@
-JsonApiBundle
+BayerJsonApiBundle
 ======
 
 What is this?
