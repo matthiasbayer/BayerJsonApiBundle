@@ -1,7 +1,7 @@
 {
-    "name": "matthiasbayer/JsonApiBundle",
-    "description": "Symfony2 integration for the json-api specification",
-    "keywords": ["json-api", "jsonapi", "jsonapi.org", "json", "api", "rest"],
+    "name": "matthiasbayer/BayerJsonApiBundle",
+    "description": "FOSRestBundle integration for the json-api specification",
+    "keywords": ["json-api", "jsonapi", "jsonapi.org", "json", "api", "rest", "fos", "fosrest", "bundle"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,12 +12,14 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.3.9",
-        "matthiasbayer/json-api": "~1.0.0"
+        "php": ">=5.4.0",
+        "matthiasbayer/json-api": "~1.0",
+        "friendsofsymfony/rest-bundle": "~1.6",
+        "symfony/framework-bundle": "~2.6"
     },
     "autoload": {
         "psr-4": {
-            "Bayer\\JsonApiBundle\\": ""
+            "Bayer\\BayerJsonApiBundle\\": ""
         }
     }
 }

@@ -14,7 +14,7 @@ Installation
 ------------
 via Composer:
     
-    composer require matthiasbayer/JsonApiBundle
+    composer require matthiasbayer/BayerJsonApiBundle
 
 Usage
 ----------------
