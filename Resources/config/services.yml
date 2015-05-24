@@ -1,0 +1,6 @@
+parameters:
+    bayer_json_api.json_api_handler.class: Bayer\Bundle\JsonApiBundle\View\JsonApiHandler
+
+services:
+    bayer_json_api.json_api_handler:
+        class: %bayer_json_api.json_api_handler.class%
