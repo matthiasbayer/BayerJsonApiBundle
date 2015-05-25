@@ -4,3 +4,4 @@ parameters:
 services:
     bayer_json_api.json_api_handler:
         class: %bayer_json_api.json_api_handler.class%
+        arguments: [@doctrine, @serializer]
